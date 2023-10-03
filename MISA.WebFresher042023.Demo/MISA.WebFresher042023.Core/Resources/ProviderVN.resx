@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorLogic_Exist_ProviderCode" xml:space="preserve">
+    <value>Mã nhà cung cấp đã tồn tại trong hệ thống</value>
+  </data>
+  <data name="Export_FileName" xml:space="preserve">
+    <value>Danh_Sach_Nha_Cung_Cap.xlsx</value>
+  </data>
+  <data name="Export_Title_Address" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="Export_Title_Phone" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="Export_Title_Provider" xml:space="preserve">
+    <value>DANH SÁCH NHÀ CUNG CẤP</value>
+  </data>
+  <data name="Export_Title_ProviderCode" xml:space="preserve">
+    <value>Mã nhà cung cấp</value>
+  </data>
+  <data name="Export_Title_ProviderName" xml:space="preserve">
+    <value>Tên nhà cung cấp</value>
+  </data>
+  <data name="Export_Title_PurchasStaff" xml:space="preserve">
+    <value>Nhân viên mua hàng</value>
+  </data>
+  <data name="Export_Title_TaxCode" xml:space="preserve">
+    <value>Mã số thuế</value>
+  </data>
+  <data name="Validate_MaxLength_Address" xml:space="preserve">
+    <value>Địa chỉ tối đa 255 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_EmailContacter" xml:space="preserve">
+    <value>Email người liên hệ tối đa 100 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_EmailReceiver" xml:space="preserve">
+    <value>Email người nhận tối đa 100 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_EmployeeId" xml:space="preserve">
+    <value>Mã nhân viên tối đa 36 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_IdentityNumberContacter" xml:space="preserve">
+    <value>Số chứng minh tối đa 25 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_IdentityPlace" xml:space="preserve">
+    <value>Nơi cấp chứng minh tối đa 255 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_Lawyer" xml:space="preserve">
+    <value>Đại diện theo pháp luật tối đa 255 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_NameContacter" xml:space="preserve">
+    <value>Tên người liên hệ tối đa 100 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_NameReceiver" xml:space="preserve">
+    <value>Tên người nhận tối đa 100 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_Note" xml:space="preserve">
+    <value>Ghi chú không vượt quá 10000 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_PhoneLandlineContacter" xml:space="preserve">
+    <value>Điện thoại cố định tối đa 50 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_PhoneNumber" xml:space="preserve">
+    <value>Số điện thoại tối đa 50 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_PhoneNumberContacter" xml:space="preserve">
+    <value>Điện thoại di động tối đa 50 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_PhoneNumberReceiver" xml:space="preserve">
+    <value>Điện thoại người nhận tối đa 50 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_ProviderCode" xml:space="preserve">
+    <value>Mã nhà cung cấp tối đa 20 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_ProviderName" xml:space="preserve">
+    <value>Tên nhà cung cấp tối đa 255 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_TaxCode" xml:space="preserve">
+    <value>Mã số thuế tối đa 20 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_Website" xml:space="preserve">
+    <value>Website tối đa 255 kí tự</value>
+  </data>
+  <data name="Validate_NotExist_Group" xml:space="preserve">
+    <value>Nhóm nhà cung cấp không tồn tại trong hệ thống.</value>
+  </data>
+  <data name="Validate_NotNull_ProviderCode" xml:space="preserve">
+    <value>Mã nhà cung cấp không được để trống</value>
+  </data>
+  <data name="Validate_NotNull_ProviderName" xml:space="preserve">
+    <value>Tên nhà cung cấp không được để trống</value>
+  </data>
+</root>

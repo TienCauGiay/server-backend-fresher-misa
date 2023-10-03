@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorLogic_Constraint_AccountNumber" xml:space="preserve">
+    <value>Tài khoản này có ràng buộc với các tài khoản khác, không được sửa</value>
+  </data>
+  <data name="ErrorLogic_Exist_AccountNumber" xml:space="preserve">
+    <value>Số tài khoản đã tồn tại trong hệ thống</value>
+  </data>
+  <data name="ErrorLogic_Fail_ParentId" xml:space="preserve">
+    <value>Số tài khoản có độ dài &gt; 3 phải điền thông tin &lt;tài khoản tổng hợp&gt;.</value>
+  </data>
+  <data name="ErrorLogic_NotDelete_Account_1" xml:space="preserve">
+    <value>Không thể xóa danh mục cha nếu chưa xóa danh mục con.</value>
+  </data>
+  <data name="ErrorLogic_NotDelete_Account_2" xml:space="preserve">
+    <value>Không thể xóa tài khoản đã có phát sinh trên các danh mục, chứng từ.</value>
+  </data>
+  <data name="ErrorLogic_NotUsing_Account" xml:space="preserve">
+    <value>Tài khoản cha đang ở trạng thái ngừng sử dụng. Bạn không thể thiết lập trạng thái sử dụng cho tài khoản con.</value>
+  </data>
+  <data name="ErrorLogic_Update_Account" xml:space="preserve">
+    <value>Tài khoản &lt;{0}&gt; đã có phát sinh trên các danh mục, chứng từ.Bạn không được phép sửa tài khoản này.</value>
+  </data>
+  <data name="Export_FileName" xml:space="preserve">
+    <value>Danh_sach_he_thong_tai_khoan.xlsx</value>
+  </data>
+  <data name="Export_Title_Account" xml:space="preserve">
+    <value>DANH SÁCH HỆ THỐNG TÀI KHOẢN</value>
+  </data>
+  <data name="Export_Title_AccountName" xml:space="preserve">
+    <value>Tên tài khoản</value>
+  </data>
+  <data name="Export_Title_AccountNameEnglish" xml:space="preserve">
+    <value>Tên tiếng anh</value>
+  </data>
+  <data name="Export_Title_AccountNumber" xml:space="preserve">
+    <value>Số tài khoản</value>
+  </data>
+  <data name="Export_Title_Explain" xml:space="preserve">
+    <value>Diễn giải</value>
+  </data>
+  <data name="Export_Title_Nature" xml:space="preserve">
+    <value>Tính chất</value>
+  </data>
+  <data name="Export_Title_State" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="InValid_ParentId" xml:space="preserve">
+    <value>Số tài khoản không hợp lệ. Tài khoản chi tiết phải bắt đầu từ tài khoản tổng hợp.</value>
+  </data>
+  <data name="Required_ParentId" xml:space="preserve">
+    <value>Phải điền thông tin tài khoản tổng hợp</value>
+  </data>
+  <data name="Text_Account" xml:space="preserve">
+    <value>Tài khoản</value>
+  </data>
+  <data name="Text_Customer" xml:space="preserve">
+    <value>Khách hàng</value>
+  </data>
+  <data name="Text_Employee" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="Text_Provider" xml:space="preserve">
+    <value>Nhà cung cấp</value>
+  </data>
+  <data name="Text_State_StopUsing" xml:space="preserve">
+    <value>Ngưng sử dụng</value>
+  </data>
+  <data name="Text_State_Using" xml:space="preserve">
+    <value>Đang sử dụng</value>
+  </data>
+  <data name="Validate_ExitStartWith_AccountNumber" xml:space="preserve">
+    <value>Số tài khoản không hợp lệ.Số tài khoản không hợp lệ. Số tài khoản có phần đầu &lt;{0}&gt; trùng với tài khoản &lt;{1}&gt; cùng cấp.</value>
+  </data>
+  <data name="Validate_MaxLength_AccountEnglishName" xml:space="preserve">
+    <value>Tên tiếng anh tối đa 255 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_AccountName" xml:space="preserve">
+    <value>Tên tài khoản tối đa 255 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_AccountNumber" xml:space="preserve">
+    <value>Số tài khoản tối đa 20 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_Nature" xml:space="preserve">
+    <value>Tính chất tối đa 255 kí tự</value>
+  </data>
+  <data name="Validate_MaxLength_ParentId" xml:space="preserve">
+    <value>Tài khoản tổng hợp tối đa 36 kí tự</value>
+  </data>
+  <data name="Validate_MinLength_AccountNumber" xml:space="preserve">
+    <value>Số tài khoản tối thiểu 3 kí tự</value>
+  </data>
+  <data name="Validate_NotExist_ParentId" xml:space="preserve">
+    <value>Tài khoản tổng hợp không tồn tại trong hệ thống</value>
+  </data>
+  <data name="Validate_NotNull_AccountName" xml:space="preserve">
+    <value>Tên tài khoản không được để trống</value>
+  </data>
+  <data name="Validate_NotNull_AccountNumber" xml:space="preserve">
+    <value>Số tài khoản không được để trống</value>
+  </data>
+  <data name="Validate_NotNull_Nature" xml:space="preserve">
+    <value>Tính chất không được để trống</value>
+  </data>
+  <data name="Validate_UsingState_ParentId" xml:space="preserve">
+    <value>đang ở trạng thái &lt;Ngừng sử dụng&gt;. Bạn không được phép chọn thuộc tài khoản này.</value>
+  </data>
+</root>
