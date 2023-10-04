@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D8Z+pbHnvUw4SaZMJw+JHejEc9MM8KPun/BtgesYxNDQ9oJHZi1L/cg+6AaqovhBNz1V2v6oq/PA8QcEVe6a0A==",
+  "dgSpecHash": "mxBqwIppOGJ0DGfHhYLtXjc+cWGT1Y+aKAS1aQ+tmvezQeTQSYCGinpv7crH3o/d23M965zxxKJObmK4M9Ce4A==",
   "success": true,
-  "projectFilePath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj",
+  "projectFilePath": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -75,6 +75,12 @@ namespace MISA.WebFresher042023.Api.Controllers
         {
             return Ok("Bùi Ngọc Tiến");
         }
+
+        [HttpGet("bntien-dz")]
+        public async Task<IActionResult> NameAuthorDZ()
+        {
+            return Ok("Bùi Ngọc Tiến Đẹp Trai Quá!!!");
+        }
         #endregion
     }
 }

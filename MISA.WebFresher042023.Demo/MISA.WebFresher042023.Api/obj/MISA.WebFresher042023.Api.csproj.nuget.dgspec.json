@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Api\\MISA.WebFresher042023.Api.csproj": {}
+    "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Api\\MISA.WebFresher042023.Api.csproj": {}
   },
   "projects": {
-    "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Api\\MISA.WebFresher042023.Api.csproj": {
+    "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Api\\MISA.WebFresher042023.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Api\\MISA.WebFresher042023.Api.csproj",
+        "projectUniqueName": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Api\\MISA.WebFresher042023.Api.csproj",
         "projectName": "MISA.WebFresher042023.Api",
-        "projectPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Api\\MISA.WebFresher042023.Api.csproj",
+        "projectPath": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Api\\MISA.WebFresher042023.Api.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Api\\obj\\",
+        "outputPath": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj": {
-                "projectPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj"
+              "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj": {
+                "projectPath": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj"
               },
-              "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj": {
-                "projectPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj"
+              "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj": {
+                "projectPath": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj": {
+    "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj",
+        "projectUniqueName": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj",
         "projectName": "MISA.WebFresher042023.Core",
-        "projectPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj",
+        "projectPath": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\obj\\",
+        "outputPath": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,14 +148,14 @@
         }
       }
     },
-    "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj": {
+    "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj",
+        "projectUniqueName": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj",
         "projectName": "MISA.WebFresher042023.Infrastructure",
-        "projectPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj",
+        "projectPath": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\obj\\",
+        "outputPath": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,8 +172,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj": {
-                "projectPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj"
+              "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj": {
+                "projectPath": "D:\\server\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj"
               }
             }
           }
